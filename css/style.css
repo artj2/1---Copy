@@ -168,6 +168,7 @@ color: #1c2237;
     background-color: #3e8e41;
 }
 
+/* About page */
 .about {
     max-width: 800px;
     margin: 0 auto;
@@ -191,6 +192,27 @@ color: #1c2237;
     position: fixed;
     left: 0;
     bottom: 0;
+}
+
+/* Register page */
+
+.form-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.form-button:hover {
+    background-color: #3e8e41;
+}
+#email, #password {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
 }
 
 /* Media Queries */
