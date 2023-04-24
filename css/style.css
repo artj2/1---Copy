@@ -13,20 +13,20 @@ body {
 header {
     background-color: #1c2237;
     color: #fff;
-    padding: 2.5vh 0;
     height: 11vh;
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation-bar {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .menu-icon {
@@ -66,25 +66,28 @@ nav {
 }
 
 .user-options {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
+    padding-left: 290px;
 }
 
-.signin-btn, .register-btn {
-background-color: transparent;
-border: 2px solid #fff;
-color: #fff;
-font-size: 16px;
-font-weight: bold;
-padding: 10px 20px;
-margin-left: 30px;
-cursor: pointer;
-transition: all 0.3s ease-in-out;
+.signin-btn,
+.register-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.signin-btn:hover, .register-btn:hover {
-background-color: #fff;
-color: #1c2237;
+.signin-btn:hover,
+.register-btn:hover {
+    background-color: #fff;
+    color: #1c2237;
 }
 
 /* Heading title */
@@ -216,7 +219,7 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 932px) {
 .menu-icon {
 display: block;
 }
@@ -256,5 +259,13 @@ display: flex;
 }
 .check-boxes {
     display:inline-block
+}
+.user-options {
+    /* display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0; */
+    /* margin-left: 10vh; */
 }
 }
