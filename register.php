@@ -46,7 +46,7 @@
     </header>
     <main>
         <div class="container">
-            <form id="register-form">
+            <form class="register-form">
                 <h2>Register</h2>
                 <div>
                     <label for="email">Email</label>
