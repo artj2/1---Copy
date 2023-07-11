@@ -27,8 +27,8 @@
                 </div>
                 <div>
                     <ul class="menu">
-                        <li><a href="index_signed_in.html">Home</a></li>
-                        <li><a href="adventure_log.html">Adventure Log</a></li>
+                        <li><a href="index_signed_in.php">Home</a></li>
+                        <li><a href="adventure_log.php">Adventure Log</a></li>
                         <li><a href="#">Trails</a></li>
                         <li><a href="#">Stories</a></li>
                     </ul>

@@ -26,18 +26,18 @@
                     <div class="menu-line"></div>
                 </div>
                 <ul class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
                     <li><a href="#">Trails</a></li>
                     <li><a href="#">Stories</a></li>
                 </ul>
                 <div class="user-options">
                     <!-- <button class="signin-btn">Sign In</button> -->
-                    <a href="signin.html">  
+                    <a href="signin.php">  
                         <button class="signin-btn">Sign In</button>  
                     </a>
                     <!-- <button class="register-btn">Register</button> -->
-                    <a href="register.html">  
+                    <a href="register.php">  
                         <button class="register-btn">Register</button>  
                     </a>
                 </div>
