@@ -92,7 +92,7 @@
             </div>
         </form>
     </main>
-    <script src="js/script.js"></script>
+    <?php require_once "inc/footer.php"; ?>
 </body>
 
 </html>
