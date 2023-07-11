@@ -63,6 +63,9 @@
                 <div>
 			        <button class="default-btn" type="submit">Register</button>
 			    </div>
+                <div class="reg-error" style="display: none;">
+                    Test
+                </div>
             </form>
         </div>
     </main>
