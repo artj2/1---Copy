@@ -1,3 +1,10 @@
+<?php
+    // Allow the config file
+    define("__CONFIG__", true);
+    // Require the config file
+    require_once "inc/config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,14 +45,28 @@
         </div>
     </header>
     <main>
-        <!-- Search Box -->
-        <form>
-            <div class="container">
-                
-            </div>
-        </form>
+        <div class="container">
+            <form id="register-form">
+                <h2>Register</h2>
+                <div>
+                    <label for="email">Email</label>
+                    <div>
+                        <input id="email" type="email" required="required">
+                    </div>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <div>
+                        <input id="password" type="password" required="required">
+                    </div>
+                </div>
+                <div>
+			        <button class="default-btn" type="submit">Register</button>
+			    </div>
+            </form>
+        </div>
     </main>
-    <script src="js/script.js"></script>
+    <?php require_once "inc/footer.php"; ?>
 </body>
 
 </html>

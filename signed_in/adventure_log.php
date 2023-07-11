@@ -1,3 +1,10 @@
+<?php
+    // Allow the config file
+    define("__CONFIG__", true);
+    // Require the config file
+    require_once "../inc/config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,7 +55,7 @@
             </div>
         </div>
     </main>
-    <script src="../js/script.js"></script>
+    <?php require_once "../inc/footer.php"; ?>
 </body>
 
 </html>

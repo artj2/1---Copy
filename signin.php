@@ -1,3 +1,10 @@
+<?php
+    // Allow the config file
+    define("__CONFIG__", true);
+    // Require the config file
+    require_once "inc/config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +47,7 @@
     <main>
         <div class="container">
             <form id="register-form">
-                <h2>Register</h2>
+                <h2>Sign In</h2>
                 <div>
                     <label for="email">Email</label>
                     <div>
@@ -54,12 +61,12 @@
                     </div>
                 </div>
                 <div>
-			        <button class="default-btn" type="submit">Register</button>
+			        <button class="default-btn" type="submit">Sign In</button>
 			    </div>
             </form>
         </div>
     </main>
-    <script src="js/script.js"></script>
+    <?php require_once "inc/footer.php"; ?>
 </body>
 
 </html>
