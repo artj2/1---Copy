@@ -32,6 +32,9 @@ $(document)
         return false;
     }
 
+    //Assuming that everything so far went correctly, it's time for ajax
+    _error.hide();
+
     console.log(data);
 
     return false;
