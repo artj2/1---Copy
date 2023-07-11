@@ -1,4 +1,10 @@
-<?php require_once "inc/config.php"; ?>
+<?php
+    // Allow the config file
+    define("__CONFIG__", true);
+    // Require the config file
+    require_once "inc/config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
