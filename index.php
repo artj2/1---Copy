@@ -32,11 +32,9 @@
                     <li><a href="#">Stories</a></li>
                 </ul>
                 <div class="user-options">
-                    <!-- <button class="signin-btn">Sign In</button> -->
                     <a href="signin.php">  
                         <button class="signin-btn">Sign In</button>  
                     </a>
-                    <!-- <button class="register-btn">Register</button> -->
                     <a href="register.php">  
                         <button class="register-btn">Register</button>  
                     </a>

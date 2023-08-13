@@ -45,12 +45,20 @@ $(document)
 	.done(function ajaxDone(data) {
 		//Return the what "data" is
         console.log(data);
+        console.log("done");
         if(data.redirect !== undefined) {
             window.location = data.redirect;
+        } else if(data.error !== undefined) {
+            _error
+                .text(data.error)
+                .show();
         }
+
+        alert(data.name);
 	})
 	.fail(function ajaxFailed(e) {
 		//When this fails
+        console.log("fail");
         console.log(e);
 	})
 	.always(function ajaxAlwaysDoThis(data) {
